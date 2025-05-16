@@ -16,7 +16,7 @@ savedNotes.forEach((text)=>{
     inputBox.textContent=text;
 
     let img = document.createElement("img");
-    img.src = "/Notesapp/delete.jpg";
+    img.src = "/delete.jpg";
     img.setAttribute("draggable", "false");
     img.className = "delete-btn";
   
